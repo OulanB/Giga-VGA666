@@ -16,3 +16,4 @@ v0:
 
 next:
 - creating an add-on board (see wiki), similar to raspberrypi vga 666
+- and there are enought IO on the connector to add if needed 2 DIN 6 connectors for a keyboard and a mouse in PS/2 ...
