@@ -10,7 +10,7 @@ NOT TESTED AT ALL ... you are on your own
 
 Feel free to make comments, those are my firsts designs !!
 and are certainly full of mistakes.
-(hmmm PS/2 is TTL 5V, IO is 3.3V ?? perhaps some level converter needed ?)
+(hmmm PS/2 is TTL 5V, IO is 3.3V ?? perhaps some level converter needed ?) 
 
 <img width="2160" height="1974" alt="3D_PCB1_2025-10-14" src="https://github.com/user-attachments/assets/3e70a2b8-ee14-445b-838d-b92104f2ef20" />
 
