@@ -211,7 +211,7 @@ static void MX_LTDC_Init(void) {
   pLayerCfg.BlendingFactor1 = LTDC_BLENDING_FACTOR1_CA;
   pLayerCfg.BlendingFactor2 = LTDC_BLENDING_FACTOR2_CA;
   pLayerCfg.FBStartAdress = SDRAM_START_ADDRESS;
-  pLayerCfg.ImageWidth = 832;   // frame buffer aligned to 128 bytes ... an4661 better from docs
+  pLayerCfg.ImageWidth = 832;   // frame buffer aligned to 128 bytes ... see an4861
   pLayerCfg.ImageHeight = 600;
   pLayerCfg.Backcolor.Blue = 0;
   pLayerCfg.Backcolor.Green = 0;
