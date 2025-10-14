@@ -1,4 +1,4 @@
-First try to use the LTDC part on the Arduino Giga with a assive VGA adapter
+First try to use the LTDC part on the Arduino Giga with a passive VGA adapter
 
 As the Giga Display is not very usefull (as a 480x800 display rotated 90°),
 I started experiment on an external VGA display 
