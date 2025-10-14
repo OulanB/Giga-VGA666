@@ -1,5 +1,5 @@
 Test of the LTDC part on the Arduino Giga with a passive VGA adapter
-(SMT32H747 part with 8M SDRAM 16 bits, plus USN hos for keyboard input)
+(SMT32H747 part with 8M SDRAM 16 bits, plus Usb host for keyboard input)
 
 As the Giga Display is not very usefull (as a 480x800 display rotated 90°),
 I started experiment on an external VGA display 
