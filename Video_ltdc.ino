@@ -237,9 +237,10 @@ void loop() {
 		uint16_t *buf = (uint16_t *)SDRAM_START_ADDRESS;  // frame buffer
 		for (int y = 0; y < 600; y++) {
 			for (int x = 0; x < 800; x++) {
-        int col = x+dec;
+        		int col = x+dec;
 				*buf++ = ((col & 0x2F) << 5) + (col & 0x1F);
-			} buf += 32;  // skip 32 int16 for alignement
+			} 
+			buf += 32;  // skip 32 int16 for alignement
 		} 
     // sync SDRAM content
     SCB_CleanInvalidateDCache_by_Addr((void *)SDRAM_START_ADDRESS, 832*600*2); 
