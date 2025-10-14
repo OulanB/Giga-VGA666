@@ -1,9 +1,10 @@
 /***************************************************************************
  * Arduino GIGA LTDC VGA demo 800x600 
  * Copyright (C) 2025 O2S
- * see an4861-introduction-to-lcdtft-display-controller-ltdc-on-stm32-mcus-stmicroelectronics
- * from STM
-***************************************************************************/
+ *
+ * I used STM32Cube IDE to set the parameters using an4861 doc from STM
+ * (an4861-introduction-to-lcdtft-display-controller-ltdc-on-stm32-mcus-stmicroelectronics)
+ ***************************************************************************/
 
 #define HAL_MODULE_ENABLED
 
