@@ -223,12 +223,12 @@ static void MX_LTDC_Init(void) {
 
 void setup(void) {
   Serial.begin(115200);
-	SDRAM.begin(SDRAM_START_ADDRESS + 832*600*2);  // offset for Framebuffer at start
+  SDRAM.begin(SDRAM_START_ADDRESS + 832*600*2);  // offset for Framebuffer at start
   delay(1000);
-	Serial.println("Init Start");
-	HAL_LTDC_MspInit(&hltdc);
-	MX_LTDC_Init();
-	Serial.println("Init Done");
+  Serial.println("Init Start");
+  HAL_LTDC_MspInit(&hltdc);
+  MX_LTDC_Init();
+  Serial.println("Init Done");
 }
 
 int dec = 0;
@@ -246,7 +246,7 @@ void loop() {
     // needed to have a clean display due to M7 caches
     // otherwise declare the FB as writethrough ...
     // or compute the display with the M4 (no caches)
-		delay(100);
+    delay(100);
     dec++;
 	}
 }
@@ -255,7 +255,7 @@ void loop() {
   * @brief This function handles LTDC global interrupt.
   */
 void LTDC_IRQHandler(void) {
-	Serial.println("IRQ Called");
+  Serial.println("IRQ Called");
   HAL_LTDC_IRQHandler(&hltdc);
 }
 
@@ -265,6 +265,6 @@ void LTDC_IRQHandler(void) {
   * @brief This function handles LTDC global error interrupt.
   */
 void LTDC_ER_IRQHandler(void) {
-	Serial.println("IRQ ER Called");
+  Serial.println("IRQ ER Called");
   HAL_LTDC_IRQHandler(&hltdc);
 }
